@@ -1,4 +1,8 @@
-# CREATING MULTIPLE FOLDERS: STEP-BY-STEP EXERCISES
+<a href="https://github.com/CyberTrainingUSAF/Powershell_Training/blob/master/00-Table-of-Contents.md" > Return to TOC </a>
+
+---
+
+## CREATING MULTIPLE FOLDERS: STEP-BY-STEP EXERCISES
 
 In the first exercise, you’ll explore the use of constants, variables, concatenation, decision-making, and looping as you create 10 folders in the C:\mytempfolder directory. This directory was created earlier. If you do not have this folder on your machine, you can either create it manually or modify the following two exercises to use a folder that exists on your machine. In the second exercise in this section, you will modify the script to delete the 10 folders
 
@@ -95,33 +99,6 @@ Start up four instances of Windows Notepad on your system. By using only Windows
 
 Similarly, figure out a way to get a list of running services on your system, sort them alphabetically by service name, and output to an HTML report. We haven’t covered all the required steps yet; I’m challenging you to use your PowerShell-fu and research skills to get the job done. I believe in you.
 
+---
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<a href="https://github.com/CyberTrainingUSAF/Powershell_Training/blob/master/04_Powershell_Scripts/06_Powershell_Functions.md" > Continue to Next Topic </a>
