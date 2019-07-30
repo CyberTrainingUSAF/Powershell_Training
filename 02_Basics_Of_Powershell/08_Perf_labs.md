@@ -1,6 +1,10 @@
-additional labs
-# Collections
+<a href="https://github.com/CyberTrainingUSAF/Powershell_Training/blob/master/00-Table-of-Contents.md" > Return to TOC </a>
+
+---
+## Collections - Performance Labs
+
 PowerShell’s –contains and –in operators (-in was introduced in v3, so don’t look for it in v2) operate against collections of objects. They get a little tricky, and people almost always confuse them with wildcard operators. For example, we see this a lot:
+
 ```powershell
 If ("DC" –in $servername) {
   $IsDomainController = $True
@@ -25,3 +29,6 @@ About 4 times out of 10, we find that script bugs are due to a comparison that i
 > Try it Now
 We’re not going to give you the answer—try it, and see if you can explain to yourself why it did what it did.
 
+---
+
+<a href="https://github.com/CyberTrainingUSAF/Powershell_Training/blob/master/03_Powershell_Commands/01_Anatomy_of_a_command.md" > Continue to Next Topic </a>
