@@ -1,3 +1,7 @@
+<a href="https://github.com/CyberTrainingUSAF/Powershell_Training/blob/master/00-Table-of-Contents.md" > Return to TOC </a>
+
+---
+
 ## Foreach
 The foreach loop executes against each element of a collection using the following notation:
 ```
@@ -157,3 +161,7 @@ $i equals 3. This is less than  5
 $i equals 4. This is less than  5
 PS C:\>
 ```
+
+---
+
+<a href="https://github.com/CyberTrainingUSAF/Powershell_Training/blob/master/04_Powershell_Scripts/04_Loops_Perf_labs.md" > Continue to Performance Labs </a>
