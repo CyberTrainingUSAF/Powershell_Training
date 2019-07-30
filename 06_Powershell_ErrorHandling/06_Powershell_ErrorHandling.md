@@ -40,7 +40,7 @@ Get-ThisIsNotAValidNoun
 ```
 to get an invalid cmdlet error. You should notice an error like below.
 
-![](/Assets/thisisnotanoun.PNG)
+![](Assets/thisisnotanoun.PNG)
 
 Now we can access this error and see that it is part of the $error variable by typing 
 ```powershell
