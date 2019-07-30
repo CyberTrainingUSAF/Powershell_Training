@@ -1,5 +1,8 @@
+<a href="https://github.com/CyberTrainingUSAF/Powershell_Training/blob/master/00-Table-of-Contents.md" > Return to TOC </a>
 
-# Getting help
+---
+
+## Getting help
 Gaining confidence using the built-in help system is an important part of working with PowerShell. In PowerShell, help is extensive; authors can easily write their own help content when working with scripts and script modules.
 
 A number of commands are available to interact with the help system, as follows:
@@ -11,7 +14,7 @@ Update-Help
 
 Before exploring these commands, the concept of updatable help should be discussed.
 
-# Updatable Help
+**Updatable Help**
 Updatable help was introduced with PowerShell 3. It gives authors the option to store the most recent versions of their help documentation outside of PowerShell on web servers.
 
 Which modules support updatable help?A list of modules that support updatable help may be viewed by running the following command: Get-Module -ListAvailable | Where-Object HelpInfoURI -like *
@@ -48,7 +51,7 @@ REMARKS
 ```powershell
 Get-Help about_Updatable_Help 
 ```
-# The Get-Help command
+**The Get-Help command**
 Without any arguments or parameters, Get-Help will show introductory help about the help system. This content is taken from the default help file (Get-Help default); a snippet of this is as follows:
 ```powershell
 PS> Get-Help
@@ -88,3 +91,7 @@ Let's look at an example:
 Get-Help Get-Variable 
 ```
 The help content is broken down into a number of visible sections: name, synopsis, syntax, description, related links, and remarks.
+
+---
+
+<a href="https://github.com/CyberTrainingUSAF/Powershell_Training/blob/master/02_Basics_Of_Powershell/03_Perf_labs.md" > Continue to Performance Labs </a>
