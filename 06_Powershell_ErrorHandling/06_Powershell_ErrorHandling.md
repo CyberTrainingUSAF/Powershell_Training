@@ -47,7 +47,7 @@ Now we can access this error and see that it is part of the $error variable by t
 $error[0]
 ```
 
-![](/Assets/errorzero.png)
+![](/Assets/errorZero.png)
 
 Add another error on purpose by typing another noun that doesn't exist. Something like *Get-AnotherInvalidNoun*
 
