@@ -1,4 +1,6 @@
-# Dissecting the Powershell Command 
+
+**Dissecting the Powershell Command** 
+
 Figure Below shows the basic anatomy of a complex PowerShell command. We call this the full-form syntax of a command. 
 We’re showing a somewhat complex command so you can see all of the things that might show up.
 ![image](https://user-images.githubusercontent.com/47218880/61657966-e7257700-ac89-11e9-92df-afed7148dc2c.png)
@@ -23,7 +25,7 @@ the silly errors that PowerShell throws at you.
 
 ```
  
-## The cmdlet naming convention
+**The cmdlet naming convention**
 
 First, let’s discuss some terminology. As far as we know, we’re the only ones who use this terminology in everyday conversation, but we do it consistently, so we may as well explain:
 
@@ -44,7 +46,7 @@ OK,OK
 ```
 Not all of the so-called verbs are really verbs. Although Microsoft officially uses the term verb-noun naming convention, you’ll see “verbs” like *New, Where*, and so forth. You’ll get used to it.
 
-## Powershell Example Code
+**Powershell Example Code**
 
 We’ve said PowerShell is for solving problems that involve writing code. By now you’re probably asking “Dude! Where’s my code?” Enough talk, let’s see some example code! First, we’ll revisit the Get-ChildItem example. This time, instead of displaying the directory listing, you’ll save it into a file using output redirection like in other shell environments. In the following example, you’ll use Get-ChildItem to get information about a file named somefile.txt in the root of the C: drive. Using redirection, you’ll direct the output into a new file, c:\foo.txt, and then use the type command to display what was saved. Here’s what this looks like:
 
