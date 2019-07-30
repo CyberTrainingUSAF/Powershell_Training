@@ -1,14 +1,19 @@
+<a href="https://github.com/CyberTrainingUSAF/Powershell_Training/blob/master/00-Table-of-Contents.md" > Return to TOC </a>
 
-# Parameters
+---
+
+## Parameters
+
+---
 
 Here’s where PowerShell gets tricky. We’d love to tell you that everything we’ve shown you so far is the only way to do things, but we’d be lying. And, unfortunately, you’re going to be out on the internet stealing (er, repurposing) other people’s examples, and you’ll need to know what you’re looking at.  In addition to aliases, which are shorter versions of command names, you can also take shortcuts with parameters. You have three ways to do this, each potentially more confusing than the last.
 
-## TRUNCATING PARAMETER NAMES
+**Truncating Parameter Names**
 PowerShell doesn’t force you to type out entire parameter names. Instead of typing -computerName, for example, you could go with -comp. The rule is that you have to type enough of the name for PowerShell to be able to distinguish it. If there’s a -computer-Name parameter, a -common parameter, and a -composite parameter, you’d have to type at least -compu, -commo, and -compo, because that’s the minimum number of letters necessary to uniquely identify each.
 
 If you must take shortcuts, this isn’t a bad one to take, if you can remember to hit Tab after typing that minimum-length parameter so that PowerShell can finish typing the rest of it for you.
 
-## USING PARAMETER NAME ALIASES
+**Using Parameters Name Aliases**
 Parameters can also have their own aliases, although they can be terribly difficult to find, as they aren’t displayed in the help files or anyplace else convenient. For example, the Get-EventLog command has a -computerName parameter. To discover its aliases, you run this command:
 ```powershell
 PS C:\> (get-command get-eventlog | select -ExpandProperty parameters)
@@ -21,7 +26,7 @@ PS C:\> Get-EventLog -LogName Security -Cn SERVER2 -Newest 10
 ```
 Tab completion will show you the -Cn alias; if you typed Get-EventLog -C and started pressing Tab, it’d show up. But the help for the command doesn’t display -Cn at all, and Tab completion doesn’t indicate that -Cn and -ComputerName are the same thing.
 
-##  USING POSITIONAL PARAMETERS
+**Using Positional Parameters**
 When you’re looking at a command’s syntax in its help file, you can spot positional parameters easily:
 
 ```powershell
@@ -83,6 +88,8 @@ PS C:\> move -Destination \users\instructor\ -Path c:\file.txt
 ```
 We tend to recommend against using positional (unnamed) parameters unless you’re banging out something quick and dirty at the command line. In anything that will persist, such as a batch file or a blog post, include all of the parameter names. We do that as much as possible in this book, except in a few instances where we have to shorten the command line to make it fit within the printed pages.
 
+---
 
+<a href="https://github.com/CyberTrainingUSAF/Powershell_Training/blob/master/03_Powershell_Commands/04_Errors.md" > Continue to Next Topic </a>
 
 
