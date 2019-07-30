@@ -14,4 +14,4 @@ PowerShell commands let you manage computers from the command line. PowerShell p
 - Powershell Processes Objects 
   - Accepts and returns .NET Framework Objects
   
-<a href="https://github.com/CyberTrainingUSAF/Powershell_Training/blob/master/02_Basics_Of_Powershell/01_Powershell_Basics.md" >Continue to next topic </a>
+<a href="https://github.com/CyberTrainingUSAF/Powershell_Training/blob/master/01_Intro_to_Powershell/02_Perf_labs.md" >Continue to Performance Labs </a>
