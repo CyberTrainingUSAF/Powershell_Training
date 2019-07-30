@@ -1,5 +1,8 @@
+<a href="https://github.com/CyberTrainingUSAF/Powershell_Training/blob/master/00-Table-of-Contents.md" > Return to TOC </a>
 
-# Pipeline Command Labs
+---
+
+## Pipeline Command Labs
 
 1.  Create two similar, but different, text files. Try comparing them by using Diff. Run something like this: Diff -reference (Get-Content File1.txt) -difference (Get-Content File2.txt). If the files have only one line of text that’s different, the command should work.
 
@@ -14,3 +17,6 @@
 6.  Export-CliXML and Export-CSV both modify the system because they can create and overwrite files. What parameter would prevent them from overwriting an existing file? What parameter would ask whether you were sure before proceeding to write the output file?
 
 7.  Windows maintains several regional settings, which include a default list separator. On U.S. systems, that separator is a comma. How can you tell Export-CSV to use the system’s default separator rather than a comma?
+
+---
+<a href="https://github.com/CyberTrainingUSAF/Powershell_Training/blob/master/04_Powershell_Scripts/01_Intro_to_Scripting.md" > Continue to Next Topic </a>
