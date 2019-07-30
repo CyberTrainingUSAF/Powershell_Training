@@ -11,7 +11,7 @@
 ---
 
 * [Introduction](README.md)
-* [Introduction to Powershell](01_Intro_to_Powershell.md)
+* [Introduction to Powershell](01_Intro_to_Powershell/01_Intro_to_Powershell.md)
 * [Basics of Powershell](02_Basics_Of_Powershell.md)
 * [Powershell Commands](03_Powershell_Commands.md)
 * [Powershell Scripts](04_Powershell_Scripts.md)
