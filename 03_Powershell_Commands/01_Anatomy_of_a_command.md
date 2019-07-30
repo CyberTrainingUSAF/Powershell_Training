@@ -1,3 +1,6 @@
+<a href="https://github.com/CyberTrainingUSAF/Powershell_Training/blob/master/00-Table-of-Contents.md" > Return to TOC </a>
+
+---
 
 **Dissecting the Powershell Command** 
 
@@ -84,6 +87,6 @@ On your system choose any file that exists and the example will work fine,
 though obviously, the output will be different.
 ```
 
+---
 
-
-
+<a href="https://github.com/CyberTrainingUSAF/Powershell_Training/blob/master/03_Powershell_Commands/02_Aliases.md" > Continue to Next Topic </a>
