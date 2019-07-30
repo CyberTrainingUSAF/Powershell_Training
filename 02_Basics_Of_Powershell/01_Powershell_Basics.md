@@ -1,8 +1,12 @@
-# Powershell or CMD
+<a href="https://github.com/CyberTrainingUSAF/Powershell_Training/blob/master/00-Table-of-Contents.md" > Return to TOC </a>
+
+---
+
+## Powershell or CMD
 
 Is Powershell just the command line prompt with a blue background
 
-## Powershell and cmd.exe similarities
+**Powershell and cmd.exe similarities**
   - Both provide a command-line environment
   - Both allow the creation of scripts
   -The old 'trustees" in the Cmd.exe (commands) still work in Powershell
@@ -10,7 +14,7 @@ Is Powershell just the command line prompt with a blue background
     -Cls
     -Etc.
     
-## So What's the difference between Powershell and Cmd.exe?
+**So What's the difference between Powershell and Cmd.exe?**
 
   - Cmd.exe provided a command-line interface for a very limited set of functionality
   - Cmd.exe is a text-based scripting environment
@@ -21,7 +25,7 @@ Is Powershell just the command line prompt with a blue background
     -Makes dealing with command results very easy and efficient
   - Powershell provides access to the .NET Framework, the building blocks of Windows functionalities.
 
-## Powershell commands
+**Powershell commands**
 
 Starting at the beginning, here’s the traditional “Hello world” program in PowerShell:
 
@@ -74,7 +78,7 @@ Gottfried Wilhelm Leibniz, The Monadology (translated by Robert Latta)
 
 In The Monadology, Leibniz describes a world of irreducible components from which all things could be composed. This captures the spirit of the project: to create a toolkit of simple pieces you compose to create complex solutions.
 
-## What is Powershell? 
+**What is Powershell?** 
 
 What is PowerShell, and what can you do with it? Ask a group of PowerShell users and you’ll get different answers:
 ```
@@ -92,6 +96,9 @@ These are all part of the answer. We prefer to say PowerShell is a tool you can 
 
 ![image](https://user-images.githubusercontent.com/47218880/61651077-b9850180-ac7a-11e9-9148-fe7500f712fc.png)
 
-## So What's the difference between Powershell and Cmd.exe?
-  - Powershell provides the programming power and accessibility of an object oriented programming language in a scripting environment.
+**So What's the difference between Powershell and Cmd.exe?**
+  * Powershell provides the programming power and accessibility of an object oriented programming language in a scripting environment.
   
+---
+
+<a href="https://github.com/CyberTrainingUSAF/Powershell_Training/blob/master/01_Intro_to_Powershell/02_Perf_labs.md" > Continue to Performance Labs </a>
