@@ -32,7 +32,7 @@ In a **NEW** powershell instance type
 $error
 ```
 You will notice nothing happens and that is because you have a new instance of powershell open with no errors assigned to the $error variable.
-![](/Assets/error.PNG)
+![](/Assets/error.png)
 
 Now type 
 ```powershell
