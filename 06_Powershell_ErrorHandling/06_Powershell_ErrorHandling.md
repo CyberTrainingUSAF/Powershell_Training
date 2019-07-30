@@ -32,7 +32,7 @@ In a **NEW** powershell instance type
 $error
 ```
 You will notice nothing happens and that is because you have a new instance of powershell open with no errors assigned to the $error variable.
-![](/assets/error.png)
+![](/Assets/error.png)
 
 Now type 
 ```powershell
@@ -47,7 +47,7 @@ Now we can access this error and see that it is part of the $error variable by t
 $error[0]
 ```
 
-![](/assets/errorzero.png)
+![](/Assets/errorzero.png)
 
 Add another error on purpose by typing another noun that doesn't exist. Something like *Get-AnotherInvalidNoun*
 
@@ -57,7 +57,7 @@ $error
 ```
  then it dumps every error in the list. Again if you type *$error[0]* then you get the most recent error like how we stated earlier. *$error[1]* is now our original error. 
 
-![](/assets/multipleErrors.png)
+![](/Assets/multipleErrors.png)
 
 Try 
 ```powershell
@@ -76,7 +76,7 @@ Try typing the following:
 ```powershell
 $error[0] | Get-Member
 ```
-![](/assets/errorGetMember.png)
+![](/Assets/errorGetMember.png)
 
 ### **InvocationInfo**
 
@@ -89,7 +89,7 @@ This reveals the line that the command was called on in our script. For these ex
 ```powershell
 $error[0].InvocationInfo.Line
 ```
-![](/assets/errorInvocationInfo.png)
+![](/Assets/errorInvocationInfo.png)
 
 ### **Exception**
 
@@ -97,7 +97,7 @@ With the earlier command of *$error[0] | Get-Member* we can also see that we hav
 ```powershell
 $error[0].Exception | Get-Member
 ```
-![](/assets/errorTypeName.png)
+![](/Assets/errorTypeName.png)
 
 You can see in the screen shot above the TypeName. We will come back to this after we touch on controlling actions on errors.
 
@@ -132,7 +132,7 @@ Type out the following:
 ```powershell
 dir C:\MadeupFolder; Write-Host 'This still writes'
 ```
-![](/assets/errorStillWrites.png)
+![](/Assets/errorStillWrites.png)
 
 You should notice that we get an ItemNotFoundException but our second cmdlet still runs and we see the message 'This still writes'. Currently our $ErrorActionPreference is set to Continue by default so it outputs the error and continues execution. 
 
@@ -143,20 +143,20 @@ $ErrorActionPreference = 'Stop'
 dir C:\MadeupFolder; Write-Host 'This still writes'
 ```
 
-![](/assets/EAStop.png)
+![](/Assets/EAStop.png)
 
 or we can set the -ErrorAction parameter and see the same
 ```powershell
 dir C:\MadeupFolder; Write-Host 'This still writes' -ErrorAction "Stop"
 ```
-![](/assets/EAStop2.png)
+![](/Assets/EAStop2.png)
 
 
 Every cmdlet has access to this parameter. This means that we can read more about it in the docs by looking at CommonParameters and scrolling down to -ErrorAction. 
 ```powershell
 help about_commonParameters
 ```
-![](/assets/commonParameters.png)
+![](/Assets/commonParameters.png)
 
 ---
 
@@ -175,12 +175,12 @@ $error[0].Exception | Get-Member
 ```
 We see that we have an ItemNotFoundException.
 
-![](/assets/itemNotFoundException.png)
+![](/Assets/itemNotFoundException.png)
 or we can call the GetType() method to get the full name.
 ```powershell
 $error[0].Exception.GetType().FullName
 ```
-![](/assets/exceptionFullName.png)
+![](/Assets/exceptionFullName.png)
 
 
 With this we can write our Try/Catch/Finally block and run the script by pressing the green play button in our Powershell ISE toolbar.
@@ -196,11 +196,11 @@ Finally {
     "Finally Block Reached"
 }
 ```
-![](/assets/tryCatchFinal.png)
+![](/Assets/tryCatchFinal.png)
 
 As you can see since the ItemNotFoundException is a non-terminating error, the **Catch** block is not ran. If we change our $ErrorActionPreference = 'Stop' then we will see "Caught the Exception" printed to the screen.
 
-![](/assets/tryCatchEAStop.png)
+![](/Assets/tryCatchEAStop.png)
 
 ---
 This is just scratching the surface of error handling. I've given you the tools and examples necessary to branch out and start experimenting with how you can utilize the $ErrorActionPreference and make sure your scripts do not go into production without proper failsafes and error handling. 
