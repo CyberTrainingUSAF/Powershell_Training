@@ -1,5 +1,8 @@
+<a href="https://github.com/CyberTrainingUSAF/Powershell_Training/blob/master/00-Table-of-Contents.md" > Return to TOC </a>
 
-# Help Performance Labs
+---
+
+## Help Performance Labs
 
 For this lab, you need any computer running PowerShell v3 or later.
 > Use the Lessons as well as additional resources to assist you in finding the answers.
@@ -35,3 +38,7 @@ For this lab, you need any computer running PowerShell v3 or later.
 15.  How many cmdlets are available that can deal with generic objects? (Hint: remember to use a singular noun like object rather than a plural one like objects.)
 
 16.  If you were told about a topic as in "arrays". What help topic could tell you more about them?
+
+---
+
+<a href="https://github.com/CyberTrainingUSAF/Powershell_Training/blob/master/02_Basics_Of_Powershell/04_Providers.md" > Continue to next topic </a>
