@@ -1,7 +1,12 @@
-# Loops performance Labs
+
+
+---
+
+## Loops performance Labs
+
 > Type these programming scripts into files and run them and manipulate them to see what they do.
 
-### Foreach
+**Foreach**
 
 ForEach has two different meanings in PowerShell. One is a keyword and the other is an alias for the ForEach-
 Object cmdlet. The former is described here.
@@ -28,7 +33,7 @@ ForEach ($Number in 1..20)
 $Numbers += $Number
 }
 ```
-### For
+**For**
 The for statement runs a statement list zero or more times based on an initial setting, a conditional test, and a repeated statement, most often used with numeric counters.
 
 ```powershell
@@ -50,9 +55,9 @@ for($i = 0; $i -lt 3; $i++)
     Write-Output $line
 }
 ```
-## Continue and Break decision Structures
+**Continue and Break decision Structures**
 
-### Continue
+**Continue**
 The continue statement immediately returns script flow to the top of the innermost While, Do, For, or ForEach loop.
 ```powershell
 $processes = Get-Process
@@ -65,7 +70,7 @@ foreach($process in $processes)
     Write-Output ('Process ' + $process.Name + ' is using more than 100 MB RAM.')
 }
 ```
-### Break
+**Break**
 The break statement causes Windows PowerShell to immediately exit the innermost While, Do, For, or ForEach loop or Switch code block.
 ```powershell
 $processes = Get-Process
@@ -78,9 +83,9 @@ foreach($process in $processes)
     }
 }
 ```
-## While/Do-While/Do-Until
+**While/Do-While/Do-Until**
 
-### While
+**While**
 The while statement runs a statement list zero or more times based on the results of a conditional test.
 ```powershell
 $i = 0
@@ -90,7 +95,7 @@ while($i -lt 3)
     $i++
 }
 ```
-### Do While
+**Do While**
 The do while statement runs a statement list one or more times based on the affirmative results of a conditional test.
 ```powershell
 $i = 0
@@ -121,13 +126,6 @@ do
 
 ```
 
+---
 
-
-
-
-
-
-
-
-
-
+<a href="https://github.com/CyberTrainingUSAF/Powershell_Training/blob/master/04_Powershell_Scripts/05_Perf_labs.md" > Continue to more Perfance Labs </a>
