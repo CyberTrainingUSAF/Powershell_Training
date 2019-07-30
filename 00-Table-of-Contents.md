@@ -12,7 +12,11 @@
 
 * [Introduction](README.md)
 * [Introduction to Powershell](01_Intro_to_Powershell/01_Intro_to_Powershell.md)
-* [Basics of Powershell](02_Basics_Of_Powershell.md)
+* [Basics of Powershell](02_Basics_Of_Powershell/01_Powershell_Basics.md)
+  * [FindingHelp](02_Basics_Of_Powershell/02_Finding_Help.md)
+  * [Providers](02_Basics_Of_Powershell/04_Providers.md)
+  * [Comparisons](02_Basics_Of_Powershell/06_Comparisons.md)
+  * [Wildcards](02_Basics_Of_Powershell/07_Wildcards.md)
 * [Powershell Commands](03_Powershell_Commands.md)
 * [Powershell Scripts](04_Powershell_Scripts.md)
 * [Files and Folders](05_Files_and_Folders.md)
