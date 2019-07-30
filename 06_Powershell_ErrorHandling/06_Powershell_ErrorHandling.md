@@ -32,7 +32,7 @@ In a **NEW** powershell instance type
 $error
 ```
 You will notice nothing happens and that is because you have a new instance of powershell open with no errors assigned to the $error variable.
-![](/Assets/error.png)
+![](/assets/error.PNG)
 
 Now type 
 ```powershell
@@ -204,3 +204,4 @@ As you can see since the ItemNotFoundException is a non-terminating error, the *
 
 ---
 This is just scratching the surface of error handling. I've given you the tools and examples necessary to branch out and start experimenting with how you can utilize the $ErrorActionPreference and make sure your scripts do not go into production without proper failsafes and error handling. 
+

@@ -1,4 +1,7 @@
-# The Red Text
+<a href="https://github.com/CyberTrainingUSAF/Powershell_Training/blob/master/00-Table-of-Contents.md" > Return to TOC </a>
+
+## The Red Text
+
 It’s inevitable that you’ll see some ugly red text as you start working with PowerShell—and probably from time to time even after you’re an expert-level shell user. Happens to us all. But don’t let the red text stress you out. (Personally, it takes us back to high school English class and poorly written essays, so stress is putting it mildly.)
 
 The alarming red text aside, PowerShell’s error messages are intended to be helpful. For example, as shown in the figure below, they try to show you exactly where PowerShell ran into trouble.
@@ -13,3 +16,6 @@ The error message in figure above , “Second path fragment must not be a drive 
 
 Well, no. One of the easiest ways to solve this kind of problem is to read the help and to type the command out completely. If we’d typed Get-ChildItem -path C:\Windows, we’d have realized that /s isn’t the correct syntax. We meant -recurse. Sometimes the error message might not seem helpful—and if it seems like you and PowerShell are speaking different languages, you are. PowerShell obviously isn’t going to change its language, so you’re probably the one in the wrong, and consulting the help and -spelling out the entire command, parameters and all, is often the quickest way to solve the problem. And don’t forget to use Show-Command to figure out the right syntax.
 
+---
+
+<a href="https://github.com/CyberTrainingUSAF/Powershell_Training/blob/master/03_Powershell_Commands/05_Confusion.md" > Continue to Next Topic </a>
