@@ -55,4 +55,4 @@ You can see the same in Windows Explorer where Test File.txt is created in D:/te
 
 ---
 
-<a href="https://github.com/CyberTrainingUSAF/Powershell_Training/blob/master/05_Files_and_Folders/03_Copying_Files_Folders.md" > Return to TOC </a>
+<a href="https://github.com/CyberTrainingUSAF/Powershell_Training/blob/master/05_Files_and_Folders/03_Copying_Files_Folders.md" > Continue to the Next Topic </a>
