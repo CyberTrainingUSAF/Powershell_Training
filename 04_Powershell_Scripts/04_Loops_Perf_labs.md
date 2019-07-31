@@ -128,4 +128,4 @@ do
 
 ---
 
-<a href="https://github.com/CyberTrainingUSAF/Powershell_Training/blob/master/04_Powershell_Scripts/05_Perf_labs.md" > Continue to more Perfance Labs </a>
+<a href="https://github.com/CyberTrainingUSAF/Powershell_Training/blob/master/04_Powershell_Scripts/07_Functions_Perf_lab.md" > Continue to more Perfance Labs </a>
