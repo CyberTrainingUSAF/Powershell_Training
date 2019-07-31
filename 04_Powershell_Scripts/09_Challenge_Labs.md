@@ -33,11 +33,14 @@ Get-ChildItem (Dir)
 
 * **TASK 5**
 
-  * Display a list of all files named win*.* on your computer. Start in the C:\ folder. Note: you may need to experiment and use some new parameters of a cmdlet in order to complete this task.
+  * Display a list of all files named win*.* on your computer. 
+  * Start in the C:\ folder. **Note:** you may need to experiment and use some new parameters of a cmdlet in order to complete this task.
 
 * **TASK 6**
 
-  * Get a directory listing for C:\Program Files. Include all subfolders and files. Direct the directory listing to a text file named C:\Dir.txt (remember to use the > redirector, or the Out-File cmdlet).
+  * Get a directory listing for C:\Program Files. 
+  * Include all subfolders and files. 
+  * Direct the directory listing to a text file named  C:\Dir.txt (remember to use the > redirector, or the Out-File cmdlet).
 
 * **TASK 7**
 
@@ -50,8 +53,12 @@ Get-ChildItem (Dir)
 
 * **TASK 9**
 
-  * Get a list of services. Keep only the services’ names, display names, and statuses, and send that information to an HTML file with a title of “Service Report”. Have the phrase “Installed Services” displayed in the HTML file before the table of service information. 
-  * If you can, display Installed Services with an <H1> html tag. Verify the file in a web browser.
+  * Get a list of services. 
+  * Keep only the services’ names, display names, and statuses
+  * Send that information to an *html* file with a title of *Service Report*. 
+  * Have the phrase *Installed Services* displayed in the *html* file before the table of service information. 
+  * If you can; display installed services with an **<H1> html** tag. 
+  * Verify the file in a web browser.
 
 * **TASK 10**
 
