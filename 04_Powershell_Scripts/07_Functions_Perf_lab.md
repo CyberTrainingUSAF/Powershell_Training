@@ -1,4 +1,9 @@
+<a href="https://github.com/CyberTrainingUSAF/Powershell_Training/blob/master/00-Table-of-Contents.md" > Return to TOC </a>
+
+---
+
 ## Pre-lab: PowerShell Functions Labs (type and run this script)
+
 ```
 # func.ps1
 # declare :
@@ -8,10 +13,12 @@ Write-Host "$a +$b is " ($a +$b )
 # use :
 add 5.12 2.56
 ```
-# Creating a function: Step-by-step exercises
+
+**Creating a function: Step-by-step exercises**
+
 In this exercise, you’ll explore the use of the Get-Verb cmdlet to find permissible Windows PowerShell verbs. You will also use Function keyword and create a function. After you have created the basic function, you’ll add additional functionality to the function in the next exercise.
 
-## Creating a basic function 
+**Creating a basic function** 
 
 Start the Windows PowerShell ISE.
 Use the Get-Verb cmdlet to obtain a listing of approved verbs.
@@ -64,7 +71,7 @@ This concludes this step-by-step exercise.
 
 In the following exercise, you will add additional functionality to your Windows PowerShell function. In this additional functionality you will include a default value for the file types and make the $month, $year, and $path parameters mandatory.
 
-### Adding additional functionality to an existing function
+**Adding additional functionality to an existing function**
 
 Start the Windows PowerShell ISE.
 Open the Get-FilesByDate.ps1 script (created in the previous exercise) and use the Save As feature of the Windows PowerShell ISE to save the file with a new name of Get-FilesByDateV2.ps1.
@@ -111,3 +118,7 @@ Function Get-FilesByDate
   } #end function Get-FilesByDate
   ```
 This concludes the exercise.
+
+---
+
+<a href="https://github.com/CyberTrainingUSAF/Powershell_Training/blob/master/04_Powershell_Scripts/08_Modules.md" > Continue to Next Topic </a>
