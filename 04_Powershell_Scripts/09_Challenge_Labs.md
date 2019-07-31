@@ -57,7 +57,9 @@ Get-ChildItem (Dir)
   * Keep only the services’ names, display names, and statuses
   * Send that information to an *html* file with a title of *Service Report*. 
   * Have the phrase *Installed Services* displayed in the *html* file before the table of service information. 
-  * If you can; display installed services with an **<H1> html** tag. 
+  ```
+  * If you can; display installed services with an <H1> html tag. 
+  ```
   * Verify the file in a web browser.
 
 * **TASK 10**
