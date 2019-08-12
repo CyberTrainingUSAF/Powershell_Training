@@ -51,7 +51,7 @@ Not all of the so-called verbs are really verbs. Although Microsoft officially u
 
 **Powershell Example Code**
 
-We’ve said PowerShell is for solving problems that involve writing code. By now you’re probably asking “Dude! Where’s my code?” Enough talk, let’s see some example code! First, we’ll revisit the Get-ChildItem example. This time, instead of displaying the directory listing, you’ll save it into a file using output redirection like in other shell environments. In the following example, you’ll use Get-ChildItem to get information about a file named somefile.txt in the root of the C: drive. Using redirection, you’ll direct the output into a new file, c:\foo.txt, and then use the type command to display what was saved. Here’s what this looks like:
+We’ve said PowerShell is for solving problems that involve writing code. By now you’re probably asking “Dude! Where’s my code?” Enough talk, let’s see some example code! First, we’ll visit the Get-ChildItem example. Instead of just displaying the directory listing, you’ll save it into a file using output redirection like in other shell environments. In the following example, you’ll use Get-ChildItem to get information about a file named somefile.txt in the root of the C: drive. Using redirection, you’ll direct the output into a new file, c:\foo.txt, and then use the type command to display what was saved. Here’s what this looks like:
 
 
 ```powershell
