@@ -30,7 +30,7 @@ the silly errors that PowerShell throws at you.
  
 **The cmdlet naming convention**
 
-First, let’s discuss some terminology. As far as we know, we’re the only ones who use this terminology in everyday conversation, but we do it consistently, so we may as well explain:
+First, let’s discuss some terminology:
 
 - A **cmdlet** is a native PowerShell command-line utility. These exist only inside PowerShell and are written in a .NET Framework language such as C#. The word cmdlet is unique to PowerShell, so if you add it to your search keywords on Google or Bing, the results you get back will be mainly PowerShell-related. The word is pronounced **command-let**.
 - A **function** can be similar to a cmdlet, but rather than being written in a .NET language, functions are written in PowerShell’s own scripting language.
