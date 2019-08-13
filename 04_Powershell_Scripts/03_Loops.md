@@ -51,7 +51,7 @@ for ($i = $processes.Count - 1; $i -ge 0; $i--) {
 
 ```
 ## Do until and do while
-do untiland do while each execute the body of the loop at least once as the condition test is at the end of the loop statement. Loops based on do until will exit when the condition evaluates to true; loops based on do while will exit when the condition evaluates to false.
+Do until and do while each execute the body of the loop at least once as the condition test is at the end of the loop statement. Loops based on do until will exit when the condition evaluates to true; loops based on do while will exit when the condition evaluates to false.
 
 Do loops are written using the following notation:
 ```
