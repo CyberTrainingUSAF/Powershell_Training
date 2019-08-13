@@ -19,7 +19,7 @@ Note that I'm using the top portion of the ISE to edit the file contents and I h
 
 ![image](https://user-images.githubusercontent.com/47218880/61737423-ccb4d180-ad4d-11e9-9e79-dcfa0803c1bc.png)
 
-f you have the file loaded in the ISE, you can also use the Run button on the toolbar to run the current file.
+If you have the file loaded in the ISE, you can also use the Run button on the toolbar to run the current file.
 
 It's possible that when you try to run this script, you will receive an error complaining about the execution policy, instead of seeing the current path being set to a new folder. To understand why this would have happened, we need to discuss the concept of execution policies.
 
