@@ -149,7 +149,7 @@ We can now exit the session and verify that it is gone.
 Exit-PSSession
 Get-PSSession
 ```
-![](/Assets/exitSession.png)
+![](/Assets/exitSession.PNG)
 
 We see that the connection still exists. We have to end the session by using the **Remove-PSSession** cmdlet. 
 
