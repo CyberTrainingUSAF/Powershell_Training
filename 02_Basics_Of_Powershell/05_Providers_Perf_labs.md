@@ -7,7 +7,7 @@
 **Complete the following tasks from a PowerShell prompt:**
 
 
-1.  In the Registry, go to HKEY_CURRENT_USER\software\microsoft\Windows\-currentversion\explorer. Locate the Advanced key, and set its DontPrettyPath property to 1.
+1.  In the Registry, go to HKEY_CURRENT_USER\software\microsoft\Windows\currentversion\explorer. Locate the Advanced key, and set its DontPrettyPath property to 1.
 
 2.  Create a new directory called C:\Labs.
 
