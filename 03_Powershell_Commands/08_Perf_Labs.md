@@ -6,7 +6,7 @@
 
 1.  Create two similar, but different, text files. Try comparing them by using Diff. Run something like this: Diff -reference (Get-Content File1.txt) -difference (Get-Content File2.txt). If the files have only one line of text that’s different, the command should work.
 
-2.  What happens (on Windows) if you run Get-Service | Export-CSV services .csv | Out-File from the console? Why does that happen?
+2.  What happens (on Windows) if you run Get-Service | Export-CSV services.csv | Out-File from the console? Why does that happen?
 
 3.  Apart from getting one or more services and piping them to Stop-Service, what other means does Stop-Service provide for you to specify the service or services you want to stop? Is it possible to stop a service without using Get-Service at all?
 
