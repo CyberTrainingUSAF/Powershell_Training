@@ -26,7 +26,7 @@ Non-Terminating errors do not stop the pipeline from executing. Essentially they
 
 **The $error variable**
 
-The $error variable contains a collection of errors while you have a powershell instance open. This variable can hold a count of 256 - 32768 errors. The default is 256 and you will rarely want to change it to hold more errors. To double check or change the default you can look at the $MaximumError-Count. 
+The $error variable contains a collection of errors while you have a powershell instance open. This variable can hold a maximum count of 256 - 32768 errors. The default maximum is 256 and you will rarely want to change it to hold more errors. To double check or change the default you can look at the $MaximumError-Count. 
 
 The $error variable is an array of System.Collections.ArrayList which means that you can access the collection by index, with the most recent error being located at $error[0]. 
 
