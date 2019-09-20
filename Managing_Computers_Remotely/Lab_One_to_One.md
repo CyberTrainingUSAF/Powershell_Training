@@ -59,3 +59,5 @@ Enter-PSSession –Name "SessionName"
 ```powershell
 Get-PSSession –Name "SessionName" | Remove-PSSession
 ```
+
+<a href="https://github.com/CyberTrainingUSAF/Powershell_Training/blob/master/Managing_Computers_Remotely/One_to_Many_Remoting.md" > Continue to Next Topic </a>
