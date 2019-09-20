@@ -78,3 +78,6 @@ $fanout = New-PSSession -ComputerName (Get-Content "C:\scripts\computers.txt")
 Invoke-Command -Session $fanout -FilePath "C:\scripts\config.ps1" -ThrottleLimit 75
 ```
 This means that config.ps1 will be processed in parallel by 75 computers simultaneously.
+
+
+<a href="https://github.com/CyberTrainingUSAF/Powershell_Training/blob/master/Managing_Computers_Remotely/Lab_One_to_Many.md" > Continue to Next Topic </a>
