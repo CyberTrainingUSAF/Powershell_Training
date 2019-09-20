@@ -33,7 +33,7 @@ If you do this method you can't see which server corresponds to which service na
 
 ## **Introducing True PowerShell Remoting**
 
-Starting with PowerShell v2, Microsoft added true remote management capability to Windows PowerShell. Instead of employing custom code on a per-cmdlet basis, we have a single, unified remote access method that works across the entire shell. PoerShell now uses the industry standard Web Services-Management protocol (WS-Man), which communicates over HTTP(S) and uses only 1-2 communications ports. 
+Starting with PowerShell v2, Microsoft added true remote management capability to Windows PowerShell. Instead of employing custom code on a per-cmdlet basis, we have a single, unified remote access method that works across the entire shell. PowerShell now uses the industry standard Web Services-Management protocol (WS-Man), which communicates over HTTP(S) and uses only 1-2 communications ports. 
 
 The image below shows how Windows PowerShell remoting works in a nutshell.
 
