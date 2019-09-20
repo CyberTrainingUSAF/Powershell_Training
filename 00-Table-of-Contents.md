@@ -37,3 +37,7 @@
   * [Moving Files and Folders](05_Files_and_Folders/05_Moving_Files_Folders.md)
 * [Multitasking Background jobs](06_MultiTasking_background_jobs/01_Multi_tasking_windows_powershell.md)
   * [Creating Scheduled Jobs](06_MultiTasking_background_jobs/02_Creating_Scheduled_job.md)
+* [PowerShell Remoting](Managing_Computers_Remotely/One_to_One_Remoting.md)
+  * [One-to-One Lab](Managing_Computers_Remotely/Lab_One_to_One.md)
+  * [One-to-Many Remoting](Managing_Computers_Remotely/One_to_Many_Remoting.md)
+  * [One-to-Many Lab](Managing_Computers_Remotely/Lab_One_to_Many.md)
